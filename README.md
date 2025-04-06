@@ -28,4 +28,4 @@ This project implements an ETL (Extract, Transform, Load) pipeline for processin
   * On Fedora or CentOS: `yum install wkhtmltopdf`
 * (Future) Configure your API keys and credentials for the Smart Document Router
 * Run the data extraction notebooks to download SEC filings
-* Process the documents using the ETL pipeline
+* (Future) Upload the 10-K and 10-Q to the Smart Document Router
