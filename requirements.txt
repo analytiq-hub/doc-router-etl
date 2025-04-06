@@ -1,0 +1,5 @@
+#llama-index
+html2text
+pdfkit
+sec-edgar-downloader
+yfinance
