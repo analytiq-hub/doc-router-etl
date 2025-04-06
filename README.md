@@ -1,4 +1,4 @@
-# ETL for the Smart Document Router
+# ETL for the [DocRouter.AI](https://docrouter.ai)
 
 This project implements an ETL (Extract, Transform, Load) pipeline for processing financial documents, specifically SEC filings like 10-K and 10-Q reports. The pipeline automates the extraction and transformation of unstructured data from these documents into structured formats for analysis.
 
@@ -26,6 +26,8 @@ This project implements an ETL (Extract, Transform, Load) pipeline for processin
 * Install requirements: `pip install -r requirements.txt`
 * Install `wkhtmltopdf` package
   * On Fedora or CentOS: `yum install wkhtmltopdf`
-* (Future) Configure your API keys and credentials for the Smart Document Router
+* (Future) Configure your API keys and credentials for [DocRouter.AI](https://docrouter.ai)
 * Run the data extraction notebooks to download SEC filings
-* (Future) Upload the 10-K and 10-Q to the Smart Document Router
+* Define extraction schemas and prompts in [DocRouter.AI](https://docrouter.ai);
+* Upload the 10-K and 10-Q transformed PDFs to the [DocRouter.AI](https://docrouter.ai)
+ 
