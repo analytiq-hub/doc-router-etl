@@ -26,8 +26,7 @@ This project implements an ETL (Extract, Transform, Load) pipeline for processin
 * Install requirements: `pip install -r requirements.txt`
 * Install `wkhtmltopdf` package
   * On Fedora or CentOS: `yum install wkhtmltopdf`
-* (Future) Configure your API keys and credentials for [DocRouter.AI](https://docrouter.ai)
 * Run the data extraction notebooks to download SEC filings
 * Define extraction schemas and prompts in [DocRouter.AI](https://docrouter.ai);
-* Upload the 10-K and 10-Q transformed PDFs to the [DocRouter.AI](https://docrouter.ai)
- 
+* Either upload the PDFs for 10K or 10Q manually, or configure your API keys and credentials for [DocRouter.AI](https://docrouter.ai) and upload them through REST APIs
+* Visualize the extraction results in the [DocRouter.AI](https://docrouter.ai) UI, and extract them through REST APIs.
